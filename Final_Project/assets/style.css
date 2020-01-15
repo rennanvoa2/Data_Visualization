@@ -1,0 +1,61 @@
+body {
+  /*background-image: linear-gradient(70deg, red, #ebf8e1, yellow);*/
+  background-image:  url('https://imgbbb.com/images/2020/01/15/test.jpg');
+
+  background-color: transparent;
+  margin: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  background-image:  url("https://i.imgur.com/lZ9san0.jpg");
+  background-color: transparent;
+  padding: 55px;
+}
+
+
+.pretty {
+  border-radius: 5px;
+  /*background-image: linear-gradient( #f27d0c,#f9f9f9,#f9f9f9,#f9f9f9,#f9f9f9,#f9f9f9,#f9f9f9,#f9f9f9,#f9f9f9, #ebf8e1,#f9f9f9, #ebf8e1,#f9f9f9,#f9f9f9,#f9f9f9,#ebf8e1,#f9f9f9, #f27d0c);*/
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px lightgrey;
+  border:10px dashed #000000;
+}
+
+
+.filters {
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  flex: 30%;
+}
+
+.column2 {
+  flex: 70%;
+}
+
+.column3 {
+  flex: 40%;
+}
+
+.column4 {
+  flex: 25%;
+}
+
+
+.mini {
+  flex: 15%;
+  margin: 5%;
+}
